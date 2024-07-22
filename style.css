@@ -1,0 +1,28 @@
+body{
+   background-color: black;
+
+}
+h1 {
+    color:white;
+    font-family: verdana;
+    
+}
+
+#song{
+    color:white;
+}
+#singer{
+    color:rgb(0, 201, 151);
+}
+.ab{
+    font-family: verdana, arial;
+    /*in font size use example: 1.0em; equivalent to 100% ....for fonts go to fonts.google.com */
+    font-size: 40;
+    /*in weight choices: bold*/
+    font-weight: normal;
+    font-style: italic;/*you can change it to normal*/
+    color:rgb(216, 17, 140)
+}
+.cd{
+  color:rgb(246, 250, 12)  
+}
