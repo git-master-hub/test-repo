@@ -37,6 +37,41 @@
       </div>
       <br>
       <div>
+      <label for="phone">Phone #:</label>
+      <input type="tel" id="phone" name="phone numbers" placeholder="eg.+639657061679" required>
+    </div>
+    <br>
+    <div>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantities">
+    </div>
+    <br>
+      <div>
+        <label for="extension">Extensions:</label>
+        <!--you need to give the same name or group in order to select 1 option only-->
+      <label for="Mr.">Mr.</label>
+      <input type="radio" id="Mr." name="extension" value="Mr.">
+      <label for="Mrs.">Mrs.</label>
+      <input type="radio" id="Mrs." name="extension" value="Mrs.">
+      <label for="PhD.">PhD.</label>
+      <input type="radio" id="PhD." name="extension" value="PhD." value="PhD.">
+      </div>
+      <br>
+      <div>
+       <label for="payment">Payment:</label>
+      <select id="payment" name="payments">
+      <option>Visa</option>
+      <option>MasterCard</option>
+      <option>Giftcard</option>
+      </select>
+      </div>
+      <br>
+      <div>
+       <label for="agree" style="color:red">I agree</label>
+      <input type="checkbox" id="agree" name="agree" required >
+      </div>
+      <br>
+      <div>
         <input type="reset">
        </div>
       <br>
