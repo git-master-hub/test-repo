@@ -1,21 +1,42 @@
+@font-face{
+ src: url(fonts/PermanentMarker-Regular.ttf);
+font-family: PermanentMarker-Regular;
+}
+
+@font-face{
+    src: url(fonts/);
+   font-family: ;
+   }
+
 body{
+    /*for margin*/
+    margin: 2px;
    background-color: black;
 
 }
 h1 {
+    /*for border...*option style: solid, dashed, dotted, double, groove, ridge, inset, outset*/
+   /*short syntax: border: 3px solid rgb(216, 17, 140); radius cannot be included*/
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(216, 17, 140);
+    border-radius: 10px;/* the higher the px the more rounded border*/
+   /*for text shadow*/
+    text-shadow: 3px 3px 3px red, -3px -3px 3px skyblue; /*horizontal indent, vertical indent, blur.*/
     color:white;
     font-family: verdana;
     
 }
-
+/*# pound is for id*/
 #song{
     color:white;
 }
 #singer{
     color:rgb(0, 201, 151);
 }
+/*dot is for class*/
 .ab{
-    font-family: verdana, arial;
+    font-family: PermanentMarker-Regular, verdana, arial;
     /*in font size use example: 1.0em; equivalent to 100% ....for fonts go to fonts.google.com */
     font-size: 40;
     /*in weight choices: bold*/
@@ -24,5 +45,42 @@ h1 {
     color:rgb(216, 17, 140)
 }
 .cd{
-  color:rgb(246, 250, 12)  
+  color:rgb(246, 250, 12);
+  border-bottom: 3px solid red;
+  border-top: 3px solid red;
+  border-left: 3px dotted yellowgreen;
+  border-radius: 10px;
+
 }
+
+#box{
+    height: 10px;
+    width: 1000px;
+    background-color: aqua;
+ box-shadow: 3px 3px 3px white;
+ 
+}
+
+#box1{
+
+  border: 5px solid yellow;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  background-color:#bf17ae;
+  /*set margin:auto that always stays in center, left, or right*/
+  margin-left: 50px;
+  margin-top: 50px;
+ 
+}
+#box2{
+    background-color:#22c4c9;
+    border: 5px solid yellow;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+    
+   }
