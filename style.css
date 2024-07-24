@@ -10,8 +10,11 @@ font-family: PermanentMarker-Regular;
 
 body{
     /*for margin*/
-    margin: 2px;
+    margin: 5px;
+    border: 3px solid white;
    background-color: black;
+   /*this is to make the content always inside the border*/
+   display:flow-root;
 
 }
 h1 {
@@ -81,6 +84,23 @@ h1 {
     font-size: 20px;
     margin-left: 50px;
     margin-top: 50px;
-
-    
    }
+
+   /*float is use to fit text or paragraph in a picture*/
+#a{
+
+    float: left;
+    margin-right: 20px;
+}
+
+#overf{
+
+border: 2px solid;
+height: 75px;
+/*overflow is use to hide overlapsing text in a box...these are the options: visible, hidden, clip, scroll, auto*/ 
+overflow: scroll;
+margin: 5px;
+/*this is use to control how much text you want to overflow*/
+overflow-clip-margin: 13px;
+
+}
