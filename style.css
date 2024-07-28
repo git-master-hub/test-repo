@@ -4,8 +4,8 @@ font-family: PermanentMarker-Regular;
 }
 
 @font-face{
-    src: url(fonts/);
-   font-family: ;
+    src: url(fonts/EduAUVICWANTHand-VariableFont_wght.ttf);
+   font-family: EduAUVICWANTHand-VariableFont;
    }
 
 body{
@@ -39,7 +39,7 @@ h1 {
 }
 /*dot is for class*/
 .ab{
-    font-family: PermanentMarker-Regular, verdana, arial;
+    font-family: PermanentMarker-Regular, verdana, arial, EduAUVICWANTHand-VariableFont;
     /*in font size use example: 1.0em; equivalent to 100% ....for fonts go to fonts.google.com */
     font-size: 40;
     /*in weight choices: bold*/
@@ -98,7 +98,7 @@ h1 {
 border: 2px solid;
 height: 75px;
 /*overflow is use to hide overlapsing text in a box...these are the options: visible, hidden, clip, scroll, auto*/ 
-overflow: scroll;
+overflow: auto;
 margin: 5px;
 /*this is use to control how much text you want to overflow*/
 overflow-clip-margin: 13px;
