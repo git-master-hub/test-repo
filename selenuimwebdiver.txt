@@ -13,6 +13,8 @@ note: use cd C:\Program Files\Java\jdk-23... the path of java file version. we n
 <<Install/Download eclipse>>
 1. Search eclipse download (select ECLIPSE.ORG)
 2. select download packages and select eclipse IDE for Jva Developers (recommended) and download.
-3. 
+3. extract the file and install (default use filename: eclipse-workspace
+
+<<Set up first java project in eclipse>>
 
 
