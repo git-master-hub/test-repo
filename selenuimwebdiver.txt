@@ -3,9 +3,16 @@ SELENIUM WEB DRIVER
 <<Install/Download java>>
 1. search download java (select oracle.com)
 2. select windows x64 exe file (jdk 23 latest)
-note: use cd C:\Program Files\Java\jdk-23... the path of java file version. we need to Create environment variables for the selenium script or program to run and the windows system will look out for the path 
+note: use cd C:\Program Files\Java\jdk-23... the path of java file version. we need to Create environment variables for the selenium script or program to run and the windows system will look out for the path in which version of java...
 3. go to environment variables and select Path in system variables
 4. add new and paste the java path ex. C:\Program Files\Java\jdk-23\bin...note bin file should be included
 5. return to system variables and select new
-6. 
+6. set the variable name to :JAVA_HOME and set the variable value to: C:\Program Files\Java\jdk-23...note: bin should be excluded.
+7. run cmd and check java version (java -version).
+
+<<Install/Download eclipse>>
+1. Search eclipse download (select ECLIPSE.ORG)
+2. select download packages and select eclipse IDE for Jva Developers (recommended) and download.
+3. 
+
 
