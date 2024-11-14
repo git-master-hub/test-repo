@@ -18,6 +18,12 @@ note: use cd C:\Program Files\Java\jdk-23... the path of java file version. we n
 <<Set up first java project in eclipse>>
 1. go to file>select new>select java project.
 2. go to src file, right click and select "new">select class. check the public static void main because it will be the main file.
-3
+3. <<dowload web driver>>
+   1. search download web driver (select selenium.dev) 
+   2. Download selenium grid (selenium grid has better coverage/effieciency than selenium clients)
+4. <<Import the selenium grid>>
+   1. right click the main path or project>select build path>select configure build path>select libraries>select classpath and select add external jars.
+   2. select the selenium grid and click apply.
+end tuts #5
 
 
