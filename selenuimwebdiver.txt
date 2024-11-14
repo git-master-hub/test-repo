@@ -16,5 +16,8 @@ note: use cd C:\Program Files\Java\jdk-23... the path of java file version. we n
 3. extract the file and install (default use filename: eclipse-workspace
 
 <<Set up first java project in eclipse>>
+1. go to file>select new>select java project.
+2. go to src file, right click and select "new">select class. check the public static void main because it will be the main file.
+3
 
 
