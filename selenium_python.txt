@@ -3,3 +3,16 @@
 3. Install selenium: create a folder>open termninal and write this command: pip install selenium.
 4.open the folder in pycharm
 5. make sure to write pip install selenium on a project
+
+
+sample script:
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+browser.get("http://selenium.dev")
+browser.maximize_window()
+title = browser.title #gets the title
+print(title) #prints the title on terminal
+assert "Selenium123" in title #checks the title
+
+
