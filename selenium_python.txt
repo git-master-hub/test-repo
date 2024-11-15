@@ -2,4 +2,4 @@
 2. Install pycharm community IDE.
 3. Install selenium: create a folder>open termninal and write this command: pip install selenium.
 4.open the folder in pycharm
-5. 
+5. make sure to write pip install selenium on a project
