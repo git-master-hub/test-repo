@@ -5,6 +5,8 @@
 5. make sure to write pip install selenium on a project
 
 
+
+
 sample script:
 from selenium import webdriver
 
@@ -14,5 +16,93 @@ browser.maximize_window()
 title = browser.title #gets the title
 print(title) #prints the title on terminal
 assert "Selenium123" in title #checks the title
+
+
+<<<<<<<<auto close issue msedge solution:
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+def test_selenium_demo():
+    # Indenting the lines inside the function
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option("detach", True)  # Keeps the browser open after the script finishes
+
+    driver = webdriver.Chrome(options=options)
+    driver.get("http://www.facebook.com")
+
+    element = driver.find_element(By.ID, "email")
+    element.clear()
+    element.send_keys("Test@gmail.com")
+
+    element_pass = driver.find_element(By.ID, "pass")
+    element_pass.clear()
+    element_pass.send_keys("Password")
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+def test_selenium_demo():
+    # Use Edge options instead of ChromeOptions
+    options = webdriver.EdgeOptions()
+    options.add_experimental_option("detach", True)  # Keeps the browser open after the script finishes
+
+    # Initialize the Edge WebDriver
+    driver = webdriver.Edge(options=options)  # Make sure edge driver is in your PATH or specify the path
+
+    driver.get("http://www.facebook.com")
+
+    element = driver.find_element(By.ID, "email")
+    element.clear()
+    element.send_keys("Test@gmail.com")
+
+    element_pass = driver.find_element(By.ID, "pass")
+    element_pass.clear()
+    element_pass.send_keys("Password")
+
+    login_button_element = driver.find_element(By.NAME, "login")
+    login_button_element.click()
+
+# Call the test function
+if __name__ == "__main__":
+    test_selenium_demo()
+
+    login_button_element = driver.find_element(By.NAME, "login")
+    login_button_element.click()
+
+# Call the test function
+if __name__ == "__main__":
+    test_selenium_demo()
+
+<<<<<<code for auto close browser in chrome:
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+def test_selenium_demo():
+    # Indenting the lines inside the function
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option("detach", True)  # Keeps the browser open after the script finishes
+
+    driver = webdriver.Chrome(options=options)
+    driver.get("http://www.facebook.com")
+
+    element = driver.find_element(By.ID, "email")
+    element.clear()
+    element.send_keys("Test@gmail.com")
+
+    element_pass = driver.find_element(By.ID, "pass")
+    element_pass.clear()
+    element_pass.send_keys("Password")
+
+    login_button_element = driver.find_element(By.NAME, "login")
+    login_button_element.click()
+
+# Call the test function
+if __name__ == "__main__":
+    test_selenium_demo()
+
+
+
+
+
+
 
 
