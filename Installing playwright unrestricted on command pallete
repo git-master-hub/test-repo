@@ -1,0 +1,12 @@
+This is how to install playwright in command palette.
+go to view> command palette> type "install playwright" check the javascipt.
+
+Use this command in powershell to install or make it unrestricted.
+
+1. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+2. Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+3. Get-ExecutionPolicy -Scope CurrentUser
+
+To revert the policy: Set-ExecutionPolicy Restricted -Scope CurrentUser
+
+
