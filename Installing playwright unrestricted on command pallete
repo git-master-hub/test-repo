@@ -9,4 +9,6 @@ Use this command in powershell to install or make it unrestricted.
 
 To revert the policy: Set-ExecutionPolicy Restricted -Scope CurrentUser
 
-
+<<Testing>> 
+npx playwright test //default
+npx playwright test --headed// shows testing process
