@@ -14,3 +14,4 @@ npx playwright test ///default
 npx playwright test --headed ///shows testing process
 npx playwright test HomePageTest.spec.js --project=chromium ///Using specific browser
 npx playwright test HomePageTest.spec.js ///run specific file
+npx playwright test HomePageTest.spec.js --debug ///manual step by step execution
