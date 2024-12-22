@@ -10,5 +10,7 @@ Use this command in powershell to install or make it unrestricted.
 To revert the policy: Set-ExecutionPolicy Restricted -Scope CurrentUser
 
 <<Testing>> 
-npx playwright test //default
-npx playwright test --headed// shows testing process
+npx playwright test ///default
+npx playwright test --headed ///shows testing process
+npx playwright test HomePageTest.spec.js --project=chromium ///Using specific browser
+npx playwright test HomePageTest.spec.js ///run specific file
