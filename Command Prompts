@@ -43,4 +43,9 @@ Check DNS Configuration: Display the current DNS settings:
 nslookup
 Arp -a //check gateway connected
 
+Run the System File Checker (SFC) scan: Run this command to check and repair system files, which might include missing or corrupted services
+sfc /scannow
+chkdsk /f /r
+
+
 
