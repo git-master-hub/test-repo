@@ -1,78 +1,46 @@
 wmic bios get serialnumber
 systeminfo
-wmic memorychip list full
+wmic memorychip list full //to show RAM attributes
 msinfo32
-start ms-cxh:localonly
+start ms-cxh:localonly //create local account or no need to sign in microsoft
 
 "diskpart">>"list disk"
 Sel disk 0
 
 irm https://get.activated.win | iex
 
-Release and Renew IP Address:
-
 Release your current IP address: 
-
 ipconfig /release 
 
 Renew your IP address
-
 ipconfig /renew 
 
-Flush DNS Cache:
-
-Clear the DNS resolver cache, which may help with connectivity issues: 
-
+Flush DNS Cache:Clear the DNS resolver cache, which may help with connectivity issues: 
 ipconfig /flushdns 
 
-Reset TCP/IP Stack:
-
-This can fix issues related to corrupted network configuration: 
-
+Reset TCP/IP Stack: This can fix issues related to corrupted network configuration: 
 netsh int ip reset 
 
-Reset Winsock Catalog:
-
-Resetting the Winsock catalog can resolve network issues caused by incorrect or corrupted network settings: 
-
+Reset Winsock Catalog: Resetting the Winsock catalog can resolve network issues caused by incorrect or corrupted network settings: 
 netsh winsock reset 
 
-Display All Network Interfaces:
-
-List all network interfaces and their statuses: 
-
+Display All Network Interfaces: List all network interfaces and their statuses: 
 ipconfig /all 
 
-Check Network Adapter Status:
-
-You can check the status of network interfaces using netsh: 
-
+Check Network Adapter Status: You can check the status of network interfaces using netsh: 
 netsh interface show interface 
 
-Check the Routing Table:
-
-Display the system’s routing table to troubleshoot routing issues: 
-
+Check the Routing Table: Display the system’s routing table to troubleshoot routing issues: 
 route print 
 
-Ping the Router:
-
-To ensure your computer is connected to the local network: 
-
+Ping the Router: To ensure your computer is connected to the local network: 
 ping 192.168.1.1 (Replace with your router's IP) 
 
-Test Internet Connectivity:
-
-Ping an external server (Google DNS, for example) to check internet connectivity: 
-
+Test Internet Connectivity: Ping an external server (Google DNS, for example) to check internet connectivity: 
 ping 8.8.8.8 
 
-Check DNS Configuration:
-
-Display the current DNS settings: 
-
+Check DNS Configuration: Display the current DNS settings: 
 nslookup
-
-Arp -a
+Arp -a //check gateway connected
 
 
